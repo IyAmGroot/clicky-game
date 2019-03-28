@@ -1,0 +1,15 @@
+.myJbt {
+  background-color: rgba(238, 237, 234, 0.411);
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center;
+}
+.myJbt h1,
+.myJbt p {
+  color: #000;
+}
+
+.myCF {
+  background-image: url("./gotBanner.jpg");
+  margin-top: 0;
+}

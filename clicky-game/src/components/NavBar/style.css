@@ -1,0 +1,17 @@
+h1 {
+  color: #fff;
+}
+.myNavBar {
+  background-color: #000;
+  margin-bottom: 0;
+}
+#score {
+  margin-left: 5px;
+}
+#divider {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#topScore {
+  margin-left: 5px;
+}
