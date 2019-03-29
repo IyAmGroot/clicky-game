@@ -84,13 +84,15 @@ class App extends Component {
   };
   shuffle = array => {
     // console.log(array);
-    for (let i = array.length; i > 0; i--) {
+    for (let i = array.length - 1; i >= 0; i--) {
       // const j = Math.floor(Math.random() * (i + 1));
       const j = Math.floor(Math.random() * i);
+      // console.log(j);
       [array[i], array[j]] = [array[j], array[i]];
-      // console.log(j + " | " + i);
+      console.log(i + " | " + array[i] + " | " + j + " | " + array[j]);
     }
     // console.log(array);
+    console.log(array.length);
     return array;
   };
 
