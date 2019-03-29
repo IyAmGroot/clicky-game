@@ -17,7 +17,7 @@ class App extends Component {
       "ds.jpg",
       "bt.jpg",
       "dt.jpg",
-      "astark.jpg",
+      "as.jpg",
       "hound.jpg"
     ],
     clickedImages: [],
