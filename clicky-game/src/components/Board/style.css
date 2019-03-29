@@ -3,9 +3,9 @@
   min-height: 80%;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 50px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px auto;
   background-color: rgb(204, 199, 204);
 }
 .myRow {
