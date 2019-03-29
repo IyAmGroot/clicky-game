@@ -6,7 +6,10 @@
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 50px auto;
-  background-color: coral;
+  background-color: rgb(204, 199, 204);
+}
+.myRow {
+  margin-bottom: 20px;
 }
 
 @media (min-width: 1000px) {

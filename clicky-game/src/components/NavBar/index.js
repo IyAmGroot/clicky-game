@@ -10,7 +10,7 @@ export default class NavBar extends Component {
             <h1>GoT Clicky Game</h1>
           </div>
           <div className="col-md-4">
-            <h1>Click someone!</h1>
+            <h1>{this.props.message}</h1>
           </div>
           <div className="col-md-4">
             <h1>

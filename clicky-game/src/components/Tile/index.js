@@ -5,10 +5,11 @@ export default class Tile extends Component {
   render() {
     return (
       <div
+        data-value={this.props.image}
         className="card"
-        onClick={this.props.handleTileClick}
+        onClick={this.props.handleClick}
         style={{
-          backgroundImage: `url(${this.props.image})`
+          backgroundImage: `url(/img/characters/${this.props.image})`
         }}
       />
     );
